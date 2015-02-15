@@ -16,6 +16,10 @@ public class ThreadMain {
         ob.start();
         ob2.start();
         System.out.println("I am inside main hahahah");
+        ManyThreads ob4 = new ManyThreads("akash");
+        ManyThreads ob1 = new ManyThreads("steve");
+        ManyThreads ob5 = new ManyThreads("comic");
+        ManyThreads ob3 = new ManyThreads("coffee");
     }
     
 }
